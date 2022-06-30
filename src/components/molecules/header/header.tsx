@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./header.module.scss";
+import styles from "./Header.module.scss";
 
-export const header: React.FC = () => {
+export const Header: React.FC = () => {
   return (
     <div className={styles.root}>
-      <div>header</div>
+      <div className={styles.title}>Trend Movies</div>
     </div>
   );
 };
