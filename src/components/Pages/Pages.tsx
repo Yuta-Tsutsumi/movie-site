@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { Header } from "../molecules/Header/Header";
 import styles from "./Pages.module.scss";
@@ -31,9 +31,10 @@ export const Pages: React.FC = () => {
 
   return (
     <div className={styles.root}>
-      <div className={styles.header}>
+      <header className={styles.header}>
         <Header />
-      </div>
+      </header>
+      <main className={styles.main}></main>
     </div>
   );
 };
