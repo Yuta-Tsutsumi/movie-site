@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Header from "../../components/Header/Header";
+import Header from "../../components/header/Header";
 import styles from "./Pages.module.scss";
 
 // type = {};
 
-const Pages: React.FC = () => {
+const Top: React.FC = () => {
   const [movieList, setMovieList] = useState();
   const ApiKey = process.env.REACT_APP_MOVIE_APIKEY;
   // 第一引数：uesEffect内で発火させたい（自動で発火させたい）関数を定義
@@ -46,6 +46,6 @@ const Pages: React.FC = () => {
   );
 };
 
-export default Pages;
+export default Top;
 
 // https://developers.themoviedb.org/3/trending/get-trending

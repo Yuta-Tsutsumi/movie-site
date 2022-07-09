@@ -1,10 +1,12 @@
 import React from "react";
-import Pages from "./views/Pages/temp/Pages";
+import Top from "./views/pages/top/Top";
 
-export const App: React.FC = () => {
+const App: React.FC = () => {
   return (
     <div>
-      <Pages />
+      <Top />
     </div>
   );
 };
+
+export default App;
