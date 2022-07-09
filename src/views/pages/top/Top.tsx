@@ -1,9 +1,12 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Header } from "../molecules/Header/Header";
+import Header from "../../components/header/Header";
 import styles from "./Pages.module.scss";
 
-export const Pages: React.FC = () => {
+// type = {};
+
+const Top: React.FC = () => {
+  const [movieList, setMovieList] = useState();
   const ApiKey = process.env.REACT_APP_MOVIE_APIKEY;
   // 第一引数：uesEffect内で発火させたい（自動で発火させたい）関数を定義
   // 第二引数：関数の発火タイミングを定義
@@ -20,7 +23,9 @@ export const Pages: React.FC = () => {
             },
           }
         );
-        console.log({ response });
+        // 映画の情報の一覧を配列で取得する。
+        const movies = response.data.results;
+        setMovieList(movies);
       } catch (error) {
         alert("情報取得が失敗しました");
       }
@@ -28,6 +33,8 @@ export const Pages: React.FC = () => {
     // 関数を発火
     fetchTrendMovies();
   }, [ApiKey]);
+
+  console.log(movieList);
 
   return (
     <div className={styles.root}>
@@ -38,5 +45,7 @@ export const Pages: React.FC = () => {
     </div>
   );
 };
+
+export default Top;
 
 // https://developers.themoviedb.org/3/trending/get-trending

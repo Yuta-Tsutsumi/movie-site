@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
-import { Pages } from "./components/Pages/Pages";
+import Top from "./views/pages/top/Top";
 
-export const App: React.FC = () => {
+const App: React.FC = () => {
   return (
     <div>
-      <Pages />
+      <Top />
     </div>
   );
 };
+
+export default App;
