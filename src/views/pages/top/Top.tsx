@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "../../components/header/Header";
-import styles from "./Pages.module.scss";
+import styles from "./Top.module.scss";
 
 // type = {};
 
