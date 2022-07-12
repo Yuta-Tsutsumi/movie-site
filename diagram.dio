@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="JE-W9poFUXxnZDpL_Q6b" name="ページ1">
-        <mxGraphModel dx="458" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="950" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;rounded=0;" edge="1" parent="1" source="3" target="HFHvTG4eVQWcvf4X_xEF-3">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;rounded=0;" parent="1" source="3" target="HFHvTG4eVQWcvf4X_xEF-3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="100" y="120"/>
@@ -14,16 +14,16 @@
                 <mxCell id="3" value="映画を表示する画面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-3" value="タイトルロゴがある場所" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-3" value="タイトルロゴがある場所" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="100" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-4" value="映画一覧を表示する部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-4" value="映画一覧を表示する部分" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="170" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-5" value="ページを切り替えるボタン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-5" value="ページを切り替えるボタン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="320" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1" source="3" target="HFHvTG4eVQWcvf4X_xEF-4">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;rounded=0;" parent="1" source="3" target="HFHvTG4eVQWcvf4X_xEF-4" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="110" y="90" as="sourcePoint"/>
                         <mxPoint x="170" y="130" as="targetPoint"/>
@@ -32,7 +32,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-8" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;rounded=0;" edge="1" parent="1" target="HFHvTG4eVQWcvf4X_xEF-5">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-8" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;rounded=0;" parent="1" target="HFHvTG4eVQWcvf4X_xEF-5" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="100" y="80" as="sourcePoint"/>
                         <mxPoint x="170" y="200" as="targetPoint"/>
@@ -41,25 +41,25 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-12" value="Header.tsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-12" value="Header.tsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="310" y="105" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-13" value="一覧を展開する部分&lt;br&gt;(取得した情報をmap関数で展開する場所)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-13" value="一覧を展開する部分&lt;br&gt;(取得した情報をmap関数で展開する場所)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="170" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-14" value="ポスター１個１個を&lt;br&gt;表示する部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-14" value="ポスター１個１個を&lt;br&gt;表示する部分" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="240" width="150" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-21" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="HFHvTG4eVQWcvf4X_xEF-15" target="HFHvTG4eVQWcvf4X_xEF-16">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-21" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;" parent="1" source="HFHvTG4eVQWcvf4X_xEF-15" target="HFHvTG4eVQWcvf4X_xEF-16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-15" value="MovieList.tsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-15" value="MovieList.tsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="510" y="175" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-16" value="MovieItem.tsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-16" value="MovieItem.tsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="510" y="245" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;rounded=0;" edge="1" parent="1" source="HFHvTG4eVQWcvf4X_xEF-4" target="HFHvTG4eVQWcvf4X_xEF-14">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;rounded=0;" parent="1" source="HFHvTG4eVQWcvf4X_xEF-4" target="HFHvTG4eVQWcvf4X_xEF-14" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="110" y="90" as="sourcePoint"/>
                         <mxPoint x="170" y="200" as="targetPoint"/>
@@ -68,29 +68,29 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-18" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;rounded=0;" edge="1" parent="1" source="HFHvTG4eVQWcvf4X_xEF-4" target="HFHvTG4eVQWcvf4X_xEF-13">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-18" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;rounded=0;" parent="1" source="HFHvTG4eVQWcvf4X_xEF-4" target="HFHvTG4eVQWcvf4X_xEF-13" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="245" y="220" as="sourcePoint"/>
                         <mxPoint x="360" y="270" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-19" value="Pagination.tsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-19" value="Pagination.tsx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="320" y="325" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-20" value="Pages.tsx（App.tsx）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-20" value="Top.tsx（App.tsx）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="160" y="45" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-22" value="Propsとして以下の映画情報の詳細を渡す&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;movieItem:{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;title:string;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;overview:string;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;poster_path:string;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-22" value="Propsとして以下の映画情報の詳細を渡す&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;movieItem:{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;title:string;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;overview:string;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;poster_path:string;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="599" y="170" width="230" height="115" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-23" value="Propsで映画一覧の情報を渡す(movieList)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-23" value="Propsで映画一覧の情報を渡す(movieList)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="100" y="143" width="233" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-24" value="useEffectを用いたて映画一覧の情報を取得する" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-24" value="useEffectを用いたて映画一覧の情報を取得する" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="250" y="45" width="270" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HFHvTG4eVQWcvf4X_xEF-25" value="Props（movieList）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="HFHvTG4eVQWcvf4X_xEF-25" value="Props（movieList）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="339" y="143" width="130" height="30" as="geometry"/>
                 </mxCell>
             </root>

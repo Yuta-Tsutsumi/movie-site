@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "../../components/header/Header";
 import styles from "./Top.module.scss";
+import MovieList from "../../components/movieList/MovieList";
 
 // type = {};
 
 const Top: React.FC = () => {
-  const [movieList, setMovieList] = useState();
+  const [movieList, setMovieList] = useState([{}]);
   const ApiKey = process.env.REACT_APP_MOVIE_APIKEY;
   // 第一引数：uesEffect内で発火させたい（自動で発火させたい）関数を定義
   // 第二引数：関数の発火タイミングを定義
@@ -34,14 +35,14 @@ const Top: React.FC = () => {
     fetchTrendMovies();
   }, [ApiKey]);
 
-  console.log(movieList);
-
   return (
     <div className={styles.root}>
       <header className={styles.header}>
         <Header />
       </header>
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <MovieList movieList={movieList} />
+      </main>
     </div>
   );
 };
