@@ -4,7 +4,7 @@ import { MovieListType } from "../../types/movieTypes";
 type Props = { movieList: MovieListType };
 
 const MovieList: React.FC<Props> = (props) => {
-  const movieItem = props.movieItem.map((Image) => {
+  const movieItem = props.movieList.map((Image) => {
     return <a>テスト</a>;
   });
 
