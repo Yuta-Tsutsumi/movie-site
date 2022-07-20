@@ -1,19 +1,22 @@
 import React from "react";
 import { MovieListType } from "../../types/movieTypes";
+import MovieItem from "../movieItem/MovieItem";
 
+// ここでMovieListコンポーネントにわたすべきPropsの型を定義している
 type Props = { movieList: MovieListType };
 
 const MovieList: React.FC<Props> = (props) => {
-  const movieItem = props.movieList.map((Image) => {
-    return <a>テスト</a>;
-  });
-
+  // 今からこのデータを1つ1つMolvieItemに渡していく
   const movieList = props.movieList;
-  console.log(movieList);
 
-  // 映画のポスターを表示するところまで実装してください
-
-  return <div>MovieList</div>;
+  // movieList配列（20個のデータ）の情報を1つ1つ展開したい
+  return (
+    <div>
+      {movieList.map((movie) => {
+        return <MovieItem item={movie} key={movie.id} />;
+      })}
+    </div>
+  );
 };
 
 export default MovieList;
