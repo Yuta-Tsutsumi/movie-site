@@ -3,11 +3,12 @@ import axios from "axios";
 import Header from "../../components/header/Header";
 import styles from "./Top.module.scss";
 import MovieList from "../../components/movieList/MovieList";
-
-// type = {};
+import { MovieListType } from "../../types/movieTypes";
 
 const Top: React.FC = () => {
-  const [movieList, setMovieList] = useState([{}]);
+  const [movieList, setMovieList] = useState<MovieListType>([
+    { id: 0, poster_path: "", title: "", overview: "" },
+  ]);
   const ApiKey = process.env.REACT_APP_MOVIE_APIKEY;
   // 第一引数：uesEffect内で発火させたい（自動で発火させたい）関数を定義
   // 第二引数：関数の発火タイミングを定義
