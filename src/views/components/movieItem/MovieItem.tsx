@@ -1,20 +1,27 @@
 import React from "react";
-import { Box } from '@material-ui/core';
+import { MovieItemType } from "../../types/movieTypes";
+import styles from "./MovieItem.module.scss";
 
-export type Props = {
-  item: { id: number; poster_path: string; title: string; overview: string };
-  onMouse: boolean;
+type Props = {
+  // 映画情報の型の定義（id、映画のポスター画像、映画タイトル、映画の概要説明）
+  item: MovieItemType;
+
+  // 以下は後々説明します〜
+  // マウスがポスターの上にのっているかを判定するフラグ
+  // onMouse: boolean;
+  // マウスがポスターの上にのった時に発火する関数
+  // onMouseOver: () => void;
+  // マウスがポスターの上から離れた時に発火する関数
+  // onMouseOut: () => void;
 };
 
-const MovieItem: React.VFC<Props> = {
-  item,
-} => {
+const MovieItem: React.FC<Props> = ({ item }) => {
   return (
-    <Box
-      cursor={'pointer'}
-      mb={4}
-      position={'relative'}
-      w={'300px'}
-    ></Box>
-  )
+    <div className={styles.root}>
+      {item.title}
+      {item.poster_path}
+      {item.overview}
+    </div>
+  );
+};
 export default MovieItem;
