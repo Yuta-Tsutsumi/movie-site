@@ -18,9 +18,9 @@ type Props = {
 const MovieItem: React.FC<Props> = ({ item }) => {
   return (
     <div className={styles.root}>
-      {item.title}
-      {item.poster_path}
-      {item.overview}
+      <div className={styles.title}>{item.title}</div>
+      <div className={styles.poster_path}>{item.poster_path}</div>
+      <div className={styles.overview}>{item.overview}</div>
     </div>
   );
 };
