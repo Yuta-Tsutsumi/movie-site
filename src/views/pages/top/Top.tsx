@@ -43,11 +43,21 @@ const Top: React.FC = () => {
       </header>
       <main className={styles.main}>
         <MovieList movieList={movieList} />
+        <img
+          src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
+          // alt={item.title}
+        />
       </main>
     </div>
   );
 };
 
 export default Top;
+
+// import axios from "axios";
+
+// export default axios.create({
+//   baseURL: "https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg",
+// });
 
 // https://developers.themoviedb.org/3/trending/get-trending
