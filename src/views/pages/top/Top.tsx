@@ -44,8 +44,7 @@ const Top: React.FC = () => {
       <main className={styles.main}>
         <MovieList movieList={movieList} />
         <img
-          src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
-          // alt={item.title}
+          src={https://image.tmdb.org/t/p/original/}
         />
       </main>
     </div>
