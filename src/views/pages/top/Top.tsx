@@ -43,7 +43,6 @@ const Top: React.FC = () => {
       </header>
       <main className={styles.main}>
         <MovieList movieList={movieList} />
-        <img src={`https://image.tmdb.org/t/p/original/${item.poster_path}`} />
       </main>
     </div>
   );
