@@ -1,12 +1,22 @@
 .root {
-  // color: #ffffff;
-  .title {
-    color: #c3d130;
-  }
-  .poster_path {
-    color: #038490;
-  }
-  .overview {
-    color: #ffffff;
+  width: 300px;
+  height: 100%;
+  margin: 0px 10px 10px 10px;
+  .posterBox {
+    width: 300px;
+    .posterItems {
+      .title {
+        color: #c3d130;
+      }
+      .poster_path {
+        display: flex;
+        .posterImage {
+          width: 300px;
+        }
+      }
+      .overview {
+        color: #ffffff;
+      }
+    }
   }
 }
