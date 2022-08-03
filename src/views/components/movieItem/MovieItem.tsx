@@ -18,9 +18,19 @@ type Props = {
 const MovieItem: React.FC<Props> = ({ item }) => {
   return (
     <div className={styles.root}>
-      <div className={styles.title}>{item.title}</div>
-      <div className={styles.poster_path}>{item.poster_path}</div>
-      <div className={styles.overview}>{item.overview}</div>
+      <div className={styles.posterBox}>
+        <div className={styles.posterItems}>
+          <div className={styles.title}>{item.title}</div>
+          <div className={styles.poster_path}>
+            <img
+              className={styles.posterImage}
+              src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
+              alt="movie poster"
+            />
+          </div>
+          <div className={styles.overview}>{item.overview}</div>
+        </div>
+      </div>
     </div>
   );
 };
