@@ -1,5 +1,11 @@
+body {
+  font-family: "Hiragino Kaku Gothic Por", "Meiryo", "sans-serif";
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
 .root {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: #171923;
 }
