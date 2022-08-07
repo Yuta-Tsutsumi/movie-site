@@ -4,6 +4,8 @@ import Header from "../../components/header/Header";
 import styles from "./Top.module.scss";
 import MovieList from "../../components/movieList/MovieList";
 import { MovieListType } from "../../types/movieTypes";
+import Paginattion from "../../components/pagination/Pagination";
+import ReactPaginate from "react-paginate";
 
 const Top: React.FC = () => {
   const [movieList, setMovieList] = useState<MovieListType>([
@@ -44,6 +46,9 @@ const Top: React.FC = () => {
       <main className={styles.main}>
         <MovieList movieList={movieList} />
       </main>
+      <footer>
+        <Paginattion />
+      </footer>
     </div>
   );
 };
